@@ -1,4 +1,6 @@
-# Flight-Price-Prediction
+# Flight-Price-Prediction for an online travel agency
+
+A machine learning project that predicts airline ticket prices using route, timing, and travel class data. This repository is designed as a GitHub portfolio project and uses the Kaggle Flight Price Prediction dataset.
 
 ## Data
 
