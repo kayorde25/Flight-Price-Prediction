@@ -1,18 +1,29 @@
 # Flight-Price-Prediction
 
-# Data
-Datasets can be accessed at:
-https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction?resource=download
+## Data
 
-The original raw dataset files are not stored in this repository because of file size limits.
+The dataset used in this project can be downloaded from Kaggle:
 
-Expected local files:
+`https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction?resource=download`
+
+The original raw dataset files are not included in this repository because of file size limits.
+
+### Expected local files
+
+Place the downloaded files in:
 
 - `data/raw/business.csv`
 - `data/raw/economy.csv`
 - `data/raw/clean_dataset.csv`
 
-You can place the downloaded dataset files in `data/raw/` before running the project.
+### Repository data structure
 
-For GitHub demonstration, a small sample dataset may be included in `data/sample/`.
+```text
+data/
+├── raw/
+│   ├── business.csv
+│   ├── economy.csv
+│   └── clean_dataset.csv
+└── sample/
+    └── sample_flights.csv
 
