@@ -1,10 +1,23 @@
-# Tripsmooth Flight-Price-Prediction
+# TripSmooth Flight Price Prediction
 
-A machine learning project that predicts airline ticket prices using route, timing, and travel class data. This repository is designed as a GitHub portfolio project and uses the Kaggle Flight Price Prediction dataset.
+A machine learning project that predicts airline ticket prices using route, timing, and travel class data.
 
-## Data
+This repository is designed as a GitHub portfolio project and uses the Kaggle Flight Price Prediction dataset.
 
-The dataset used in this project can be downloaded from Kaggle: https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction?resource=download
+## Project objective
+
+The goal of this project is to build a flight price prediction system that can help support:
+
+- price estimation
+- booking intelligence
+- market trend analysis
+- future pricing tools for TripSmooth
+
+## Dataset
+
+The dataset used in this project can be downloaded from Kaggle:
+
+`https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction?resource=download`
 
 The original raw dataset files are not included in this repository because of file size limits.
 
@@ -26,4 +39,3 @@ data/
 │   └── clean_dataset.csv
 └── sample/
     └── sample_flights.csv
-
