@@ -1,11 +1,26 @@
-#Project structure
+# Project structure
 
 Flight-Price-Prediction/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
 ├── data/
+│   ├── README.md
+│   ├── raw/
+│   │   └── .gitkeep
+│   └── sample/
+│       └── .gitkeep
 ├── notebooks/
+│   └── 01_eda_model.ipynb
 ├── src/
+│   ├── load_data.py
+│   ├── preprocess.py
+│   ├── train.py
+│   └── predict.py
 ├── models/
+│   └── .gitkeep
 └── results/
+    ├── figures/
+    │   └── .gitkeep
+    └── metrics/
+        └── .gitkeep
