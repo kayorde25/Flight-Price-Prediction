@@ -24,3 +24,16 @@ Flight-Price-Prediction/
     │   └── .gitkeep
     └── metrics/
         └── .gitkeep
+
+
+# Project structure summary
+
+Flight-Price-Prediction/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+├── notebooks/
+├── src/
+├── models/
+└── results/
