@@ -1,1 +1,12 @@
+#Project structure
 
+
+Flight-Price-Prediction/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+├── notebooks/
+├── src/
+├── models/
+└── results/
