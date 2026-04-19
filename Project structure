@@ -17,7 +17,7 @@ Flight-Price-Prediction/
 │       ├── xgb_tuned_feature_importance.png
 │       ├── actual_vs_predicted.png
 │
-├── src/                  (optional but strong)
+├── src/                  
 │   ├── preprocess.py
 │   ├── train.py
 │
