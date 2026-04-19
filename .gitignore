@@ -1,27 +1,14 @@
 # Ignore Python cache files
+# Data
+data/raw/
+
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Ignore virtual environment folders
-.venv/
-venv/
-env/
-
-# Ignore Jupyter notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Ignore trained model artifacts
-models/*.pkl
-
-# Ignore large local raw data files
-data/raw/*.csv
-
-# Keep placeholders
-!data/raw/.gitkeep
-!data/sample/.gitkeep
-
-# Ignore OS-specific files
+# OS
 .DS_Store
 Thumbs.db
