@@ -1,39 +1,26 @@
 # Project structure
 
 Flight-Price-Prediction/
-├── README.md
-├── requirements.txt
-├── .gitignore
+│
 ├── data/
-│   ├── README.md
 │   ├── raw/
-│   │   └── .gitkeep
+│   │   └── (not included - large files)
 │   └── sample/
-│       └── .gitkeep
+│       └── sample_dataset.csv
+│
 ├── notebooks/
 │   └── 01_eda_model.ipynb
-├── src/
-│   ├── load_data.py
+│
+├── results/
+│   └── figures/
+│       ├── model_comparison_mae.png
+│       ├── xgb_tuned_feature_importance.png
+│       ├── actual_vs_predicted.png
+│
+├── src/                  (optional but strong)
 │   ├── preprocess.py
 │   ├── train.py
-│   └── predict.py
-├── models/
-│   └── .gitkeep
-└── results/
-    ├── figures/
-    │   └── .gitkeep
-    └── metrics/
-        └── .gitkeep
-
-
-# Project structure summary
-
-Flight-Price-Prediction/
-├── README.md
+│
 ├── requirements.txt
+├── README.md
 ├── .gitignore
-├── data/
-├── notebooks/
-├── src/
-├── models/
-└── results/
