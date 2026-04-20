@@ -9,6 +9,8 @@ It demonstrates how AI can be used to power intelligent pricing systems for trav
 
 ## Project Highlights
 
+A production-style machine learning project that predicts flight ticket prices and extends into demand prediction, Streamlit UI, and API deployment.
+
 - Built on real flight pricing dataset (300k+ records)
 - Advanced feature engineering (time, duration, routes)
 - Reduced feature space from **1000+ → ~60 features**
@@ -18,7 +20,32 @@ It demonstrates how AI can be used to power intelligent pricing systems for trav
   - Tuned XGBoost
 - Implemented **segmented modeling (Economy vs Business)**
 - Extracted real-world pricing insights
+- Demand prediction layer
+- Streamlit app + FastAPI API
+---
 
+## 📊 Best Model
+
+| Model | MAE |
+|------|-----|
+| Random Forest | **1917** |
+
+---
+
+## 🧠 Key Insight
+
+Travel class dominates pricing. After segmentation:
+
+- Economy → driven by duration
+- Business → driven by time + airline
+
+---
+
+## 📦 Dataset
+
+```bash
+pip install -r requirements.txt
+python scripts/download_data.py
 ---
 
 ## Model Performance
