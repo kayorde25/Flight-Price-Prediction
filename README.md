@@ -41,7 +41,7 @@ Travel class dominates pricing. After segmentation:
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 ```bash
 pip install -r requirements.txt
@@ -149,16 +149,20 @@ python scripts/download_data.py
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+python src/train.py
+python src/train_demand.py
+streamlit run app/streamlit_app.py
+uvicorn api.main:app --reload
 
 Open:
 notebooks/01_eda_model.ipynb
 
-## Future Improvements
-Deploy as API (FastAPI)
-Build Streamlit UI
-Add real-time pricing engine
-Integrate with flight search APIs
-Add demand prediction layer
+## Use Case (TripSmooth)
+
+Price prediction engine
+Smart ranking
+Demand-aware recommendations
+AI travel assistant
 
 ## Author
 Abiola Olaleye
