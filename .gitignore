@@ -1,14 +1,11 @@
-# Ignore Python cache files
-# Data
-data/raw/
+data/*
+!data/.gitkeep
 
-# Python
+*.csv
+kaggle.json
 __pycache__/
 *.pyc
-
-# Jupyter
 .ipynb_checkpoints/
-
-# OS
 .DS_Store
 Thumbs.db
+models/*.pkl
