@@ -5,6 +5,7 @@ data/*
 kaggle.json
 __pycache__/
 *.pyc
+.venv/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
