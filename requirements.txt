@@ -1,7 +1,12 @@
+kaggle
 pandas
 numpy
 scikit-learn
 xgboost
 matplotlib
+joblib
 jupyter
-kaggle
+streamlit
+fastapi
+uvicorn
+pydantic
