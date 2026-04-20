@@ -105,7 +105,17 @@ https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction
 
 Raw data is not included due to size limits.
 
+This project uses the Kaggle dataset:
+
+`shubhambathwal/flight-price-prediction`
+
+The raw CSV files are not stored in this repository. Download them with:
+
+```bash
+pip install -r requirements.txt
+python scripts/download_data.py
 ---
+
 
 ## How to Run
 
